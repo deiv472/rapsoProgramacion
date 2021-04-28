@@ -52,15 +52,15 @@ function continente (name:string):string{
 
     
 
-    if (name == "España"||"Francia"||"Italia"||"Portugal"||"Alemania"){
+    if (name == "España"||name=="Francia"||name=="Italia"||name=="Portugal"||name=="Alemania"){
         return("Europa");
-    }else if (name == "Perú"||"EEUU"||"Ecuador"||"Canadá"||"Mexico"){
+    }else if (name == "Perú"||name=="EEUU"||name=="Ecuador"||name=="Canadá"||name=="Mexico"){
         return("America");
-    }else if (name == "Australia"||"Nueva Zelanda"){
+    }else if (name == "Australia"||name=="Nueva Zelanda"){
         return("Oceania");
-    }else if (name == "Marruecos"||"Guinea Ecuatorial"||"Argelia"||"Nigeria"){
+    }else if (name == "Marruecos"||name=="Guinea Ecuatorial"||name=="Argelia"||name=="Nigeria"){
         return("Africa");
-    }else if (name == "China"||"India"||"Korea"||"Indonesia"){
+    }else if (name == "China"||name=="India"||name=="Korea"||name=="Indonesia"){
         return("Asia");
     }else {
         return("no has introducido ningún pais");
@@ -70,7 +70,7 @@ function continente (name:string):string{
     
 }
 
-console.log(continente("España"));
+console.log(continente("China"));
 
 /****************************************************************************** */
 
